@@ -55,7 +55,7 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
 
-  const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
+  const API_BASE = 'https://solana-vision-api.onrender.com';
 
   // Roast & Flex State
   const [roast, setRoast] = useState('');
